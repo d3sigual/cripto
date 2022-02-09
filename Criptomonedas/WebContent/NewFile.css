@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+p.header {
+	font-family: 'Hanalei';
+	font-size: 4em;
+	text-align: center;
+}
+
+table {
+	width: 500px;
+	text-align: center;
+	margin-left: 34.5%;
+}
+
+table td.nullborder {
+	border: none;
+}
+
+hr.bigyellow {
+	background-color: yellow;
+	height: 30px;
+	box-sizing: content-box;
+	heigh: 30px;
+	width: 497px;
+	position: relative;
+	left: 5px;
+	top: 10px;
+}
+
+hr.bigyellowbottom {
+	background-color: yellow;
+	height: 30px;
+	box-sizing: content-box;
+	heigh: 30px;
+	width: 497px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+}
+
+p.hrtext {
+	position: relative;
+	text-align: center;
+	top: 63px;
+	z-index: 1;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: darkblue;
+}
+
+hr.bigwhite {
+	height: 50px;
+	border: 1px solid black;
+}
+
+p.hrtextbottom {
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: darkblue;
+	bottom: 65px;
+}
+
+table.bottom {
+	border: black 1px solid;
+}
+
+table.bottom td.dottedleft {
+	
+}
+
+table.bottom td.dottedright {
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: none;
+	border-right: 1px red dotted;
+	border-right-width: 0.25em;
+}
+
+table.bottom td.dottedrighttop {
+	border-top: 1px red dotted;
+	border-top-width: 0.25em;
+	border-left: 1px black solid;
+	border-bottom: none;
+	border-right: 1px red dotted;
+	border-right-width: 0.25em;
+}
+
+table.bottom td.dottedlefttop {
+	border-top: 1px red dotted;
+	border-top-width: 0.25em;
+	border-bottom: none;
+	border-left: 1px red dotted;
+	border-left-width: 0.25em;
+}
+
+table.bottom td.dottedleft {
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: none;
+	border-left: 1px red dotted;
+	border-left-width: 0.25em;
+}
+
+table.bottom td.dottedleftbottom {
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: 1px red dotted;
+	border-bottom-width: 0.25em;
+	border-left: 1px red dotted;
+	border-left-width: 0.25em;
+	z-index: 1;
+}
+
+table.bottom td.dottedrightbottom {
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: 1px red dotted;
+	border-right: 1px red dotted;
+	border-right-width: 0.25em;
+	border-bottom-width: 0.25em;
+}
+
+hr.halfwidth{
+	width: 40%;
+}
+
+hr.hugeyellowbottom{
+	background-color: yellow;
+	height: 55px;
+	border: double;
+	border-color: darkorange;
+	width: 75%;
+	
+}
+
+p.bottom{
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: darkblue;
+	bottom: 68px;
+	
+}
